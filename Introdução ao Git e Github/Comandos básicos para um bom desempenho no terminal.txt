@@ -1,0 +1,33 @@
+GUI x CLI
+
+GUI => Graphical User Interface
+CLI => Command Line Interface
+ 
+--------------------------------------------
+Windows			Unix
+-cd			-cd
+-dir			-ls
+-mkdir			-mkdir
+-del/rmdir		-rm -rf
+--------------------------------------------
+*flags[/S /Q] Windows - [-rf] Linux r= recursivo(todas) f= force
+- cls limpa tela no windows 
+- clear no linux
+- echo = printa devolta no terminal uma frase (string) que eu passo
+
+Mudar de pastas
+Win - cd			Lx - cd
+
+Listas as pastas  		
+Win - dir 	 		Lx - ls
+
+Criar pastas/arquivos
+Win - mkdir	 		Lx - mkdir
+echo hello			echo hello > hello.txt
+echo hello > hello.txt		
+
+Deletar pastar/arquivos
+Win rmdir pasta 		Lx - rm -rf pasta
+del pasta //apaga só o arquivo 
+
+

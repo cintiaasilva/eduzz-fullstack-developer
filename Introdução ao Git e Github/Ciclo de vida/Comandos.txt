@@ -1,0 +1,9 @@
+git status - ver o status do arquivo
+
+mv arquivo ./pasta/ -> move o arquivo para a pasta
+
+echo > arquivo -> Criou um arquivo
+
+
+ 
+

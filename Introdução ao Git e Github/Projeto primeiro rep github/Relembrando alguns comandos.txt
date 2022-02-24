@@ -1,0 +1,14 @@
+git clone linkDoRep : clona o repositório do github para a máquina local.
+
+cd nomeDoRep : entra na pasta do repositório
+
+git status : verifica o estado atual do repositório, se está em untracked, stage, modifed ou unmodified. 
+
+git add . ou git commit -A : adicionar arquivos novos que estão no estado untracked.
+
+git commit -m "" : cria um commit para o github
+
+git push ou git push origin branch : salva o rep na nuvem (github)
+
+
+

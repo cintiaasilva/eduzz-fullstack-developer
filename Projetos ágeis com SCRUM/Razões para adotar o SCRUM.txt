@@ -1,0 +1,15 @@
+RAZÕES PARA ADOTAR O SCRUM:
+
+¬ Desenvolvido e entregue em partes menores (2 a 4 semanas).
+
+¬ Com constante feedback dos usuários.
+
+¬ Melhor gerenciamento de riscos (Redução de incertezas).
+
+¬ Comprometimento, motivação e transparência da equipe (Daily Meeting).
+
+¬ Maior valor para o negócio (Priorização do Backlog).
+
+¬ Usuários envolvidos durante todo o ciclo.
+
+¬ Aplicação das lições aprendidas (melhoria contínua).

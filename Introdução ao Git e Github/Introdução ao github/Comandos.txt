@@ -1,0 +1,5 @@
+git remote add origin linkDoRepDoGitHub -> aponta o rep local para o rep remoto
+
+git remote -v -> mostra a lista de rep cadastrados
+
+git push origin master -> empurra para a branch master

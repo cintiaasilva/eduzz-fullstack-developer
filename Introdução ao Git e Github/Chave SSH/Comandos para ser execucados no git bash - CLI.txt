@@ -1,0 +1,27 @@
+--------------------------------------------------------------
+			PARA GERAR AS CHAVES
+
+ssh-keygen -t ed25519 -C cintiazl2015@gmail.com - Vai gerar as chaves publica e privada.
+--------------------------------------------------------------
+	PARA VISUALIZAR O CONTEUDO DA CHAVE PUBLICA
+
+vai na pasta onde foi gerada essas chaves e roda o comando
+
+cat id_ed25519.pub
+*cat=> serve p/ visualizar o conteudo.
+==================================================================
+	INICIALIZAR O SSH - ENTIDADE PARA LIDAR COM AS CHAVES
+
+ls  -> lista
+pwd -> mostra o caminho que estou
+
+eval $(ssh-agent -s) - starta o projeto
+
+==================================================================
+		PARA ENTREGAR A CHAVE AO AGENT/ENTIDADE
+
+ssh-add id_ed25519 -> chave privada
+
+Pq a chave privada? pq toda vez que chegar algo criptografado, ele irá descriptografar
+==================================================================
+Para clonar um repositorio do github na maquina local que está com a chave ssh, não pode ser clonado através da URL e sim da opção SSH
